@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import useFetchDocument from "../../customHooks/useFetchDocument";
 import spinnerImg from "../../assets/spinner.jpg";
+import moment from "moment";
 import "./OrderDetails.scss";
 const OrderDetails = () => {
   const [order, setOrder] = useState(null);
@@ -11,6 +12,8 @@ const OrderDetails = () => {
   useEffect(() => {
     setOrder(document);
   }, [document]);
+
+  // console.log("Orders: ", order);
 
   return (
     <section className="order-details">
@@ -40,6 +43,10 @@ const OrderDetails = () => {
             </p>
             <p>
               <b>Phone: </b> {order.shippingAddress.phone}
+            </p>
+            <p>
+              <b>Date: </b>{" "}
+              {moment(order.orderDate).format("MMMM Do YYYY, h:mm:ss a")}
             </p>
             <p>
               <b>Address: </b>

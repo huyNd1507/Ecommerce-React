@@ -16,7 +16,7 @@ import CheckoutForm from "../../components/checkoutForm/CheckoutForm";
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PK);
 
 const Checkout = () => {
-  const [message, setMessage] = useState("Initializing checkout...");
+  const [message, setMessage] = useState("Đang tiến hành thanh toán...");
   const [clientSecret, setClientSecret] = useState("");
 
   const cartItems = useSelector(selectCartItems);
@@ -30,11 +30,12 @@ const Checkout = () => {
     dispatch(CALCULATE_TOTAL_QUANTITY());
   }, [dispatch, cartItems]);
 
-  // https://qhshop-ecommerce.onrender.com/create-payment-intent`
+  // https://qhshop-ecommerce.onrender.com/create-payment-intent
+  // http://localhost:8080/create-payment-intent
 
   const description = `eShop payment: email: ${customerEmail}, Amount: ${totalAmount}`;
   useEffect(() => {
-    fetch("http://localhost:8080/create-payment-intent", {
+    fetch("https://qhshop-ecommerce.onrender.com/create-payment-intent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

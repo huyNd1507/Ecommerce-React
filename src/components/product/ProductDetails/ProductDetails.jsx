@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import moment from "moment";
 import {
   AiOutlineMinus,
   AiOutlinePlus,
@@ -124,7 +125,11 @@ const ProductDetails = () => {
                     <p>{review}</p>
                     <div className="user-review">
                       <span>
-                        <b>{reviewDate}</b>
+                        <b>
+                          {moment(reviewDate.orderDate).format(
+                            "MMMM Do YYYY, h:mm:ss a"
+                          )}
+                        </b>
                       </span>
                       <span>
                         <b>by: {userName}</b>

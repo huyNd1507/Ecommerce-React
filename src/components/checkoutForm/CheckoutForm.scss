@@ -65,6 +65,9 @@
   .checkout {
     form {
       flex-direction: column;
+      .checkout-pay {
+        width: 100%;
+      }
       div {
         width: 100%;
       }
