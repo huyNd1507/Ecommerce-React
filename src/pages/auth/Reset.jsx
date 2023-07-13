@@ -35,7 +35,11 @@ const Reset = () => {
             <img src={resetImg} alt="Login" />
           </div>
           <div className="form">
+<<<<<<< HEAD
             <h2>Lấy lại mật khẩu</h2>
+=======
+            <h2>Reset Password</h2>
+>>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
             <form onSubmit={ResetPassword}>
               <input
                 type="text"
@@ -45,7 +49,11 @@ const Reset = () => {
                 onChange={(e) => setEmail(e.target.value)}
               />
               <button type="submit" className="--btn --btn-primary --btn-block">
+<<<<<<< HEAD
                 Đặt lại mật khẩu
+=======
+                Send
+>>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
               </button>
               <div className="links">
                 <p>

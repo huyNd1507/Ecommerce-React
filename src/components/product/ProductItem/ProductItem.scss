@@ -7,12 +7,15 @@
     background-color: var(--second-bg-color);
   }
 
+<<<<<<< HEAD
   &:hover .product-btn {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
   }
 
+=======
+>>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
   &-img {
     height: 300px;
     overflow: hidden;
@@ -27,18 +30,26 @@
   }
 
   &-info {
+<<<<<<< HEAD
     padding: 20px;
+=======
+    padding: 5px;
+>>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
     text-align: center;
     position: relative;
 
     .product-btn {
+<<<<<<< HEAD
       position: absolute;
+=======
+>>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
       bottom: 100%;
       left: 0;
       width: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
+<<<<<<< HEAD
       opacity: 0;
       visibility: hidden;
       transform: translateY(20px);
@@ -47,6 +58,11 @@
       .--btn {
         padding: 10px 15px;
       }
+=======
+      margin: 10px 0px;
+
+      transition: all 0.3s ease-in-out;
+>>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
     }
     .product-btn > * ~ * {
       margin-left: 5px;
@@ -68,7 +84,11 @@
   &-price {
     .curr-price {
       margin-left: 5px;
+<<<<<<< HEAD
       font-size: 20px;
+=======
+      font-size: 16px;
+>>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
       font-weight: 600;
       color: var(--red);
     }
@@ -85,10 +105,23 @@
     transform: translateY(0);
   }
   .product-card-img {
+<<<<<<< HEAD
     height: 300px;
+=======
+    height: 130px;
+>>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
   }
+<<<<<<< HEAD
+=======
+  .product-card-name {
+    h2 {
+      font-size: 13px;
+      margin: 0;
+    }
+  }
+>>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
 }

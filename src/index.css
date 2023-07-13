@@ -273,7 +273,11 @@ button {
 .--btn {
   font-size: 1.6rem;
   border-radius: 3px;
+<<<<<<< HEAD
   padding: 5px 10px;
+=======
+  padding: 7px 10px;
+>>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
   border: none;
   cursor: pointer;
   display: flex;
@@ -294,7 +298,11 @@ button {
 
 .--btn-black {
   color: #fff;
+<<<<<<< HEAD
   background: #000;
+=======
+  background: #003366;
+>>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
 }
 
 .--btn-secondary {
@@ -316,7 +324,11 @@ button {
 .container {
   max-width: 1280px;
   margin: auto;
+<<<<<<< HEAD
   padding: 0 20px;
+=======
+  padding: 0 10px;
+>>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
   position: relative;
 }
 

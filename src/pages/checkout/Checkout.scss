@@ -65,6 +65,21 @@
   }
 }
 
+<<<<<<< HEAD
+=======
+.initial-checkout {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  h3 {
+    font-weight: 400;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 2px;
+  }
+}
+
+>>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
 @media only screen and (max-width: 750px) {
   .flex-reverse {
     flex-direction: column-reverse;
