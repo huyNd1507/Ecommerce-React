@@ -49,17 +49,10 @@ const CheckoutDetails = () => {
       <div className="row flex-reverse">
         <div className="col-7 col-sm-12 ">
           <div className="custumer-info">
-<<<<<<< HEAD
-            <h2>Thông tin vận chuyển</h2>
-            <form onSubmit={handleSubmit}>
-              <div className="form-group">
-                <label>Họ tên</label>
-=======
             <h2>Shipping Information</h2>
             <form onSubmit={handleSubmit}>
               <div className="form-group">
                 <label>FullName</label>
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
                 <input
                   type="text"
                   required
@@ -69,11 +62,7 @@ const CheckoutDetails = () => {
                 />
               </div>
               <div className="form-group">
-<<<<<<< HEAD
-                <label>Số điện thoại</label>
-=======
                 <label>Phone</label>
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
                 <input
                   type="number"
                   required
@@ -83,11 +72,7 @@ const CheckoutDetails = () => {
                 />
               </div>
               <div className="form-group">
-<<<<<<< HEAD
-                <label>Địa chỉ</label>
-=======
                 <label>Address</label>
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
                 <input
                   type="text"
                   required
@@ -109,13 +94,7 @@ const CheckoutDetails = () => {
                   })
                 }
               />
-<<<<<<< HEAD
-              <button className="--btn --btn-primary ">
-                Tiến hành thanh toán
-              </button>
-=======
               <button className="--btn --btn-primary ">Make a payment</button>
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
             </form>
           </div>
         </div>

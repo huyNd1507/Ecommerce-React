@@ -1,11 +1,7 @@
 .checkout-summery {
   padding: 0 15px;
-<<<<<<< HEAD
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-=======
   // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
   h2 {
     font-size: 20px;
     font-weight: 600;
@@ -22,17 +18,10 @@
     display: flex;
     margin-bottom: 10px;
     border: 1px solid var(--border-color);
-<<<<<<< HEAD
-    padding: 15px;
-
-    .product-img {
-      max-width: 35%;
-=======
     padding: 10px;
 
     .product-img {
       max-width: 20%;
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
       margin-right: 20px;
       img {
         max-width: 100%;
@@ -41,21 +30,12 @@
 
     .product-content {
       h4 {
-<<<<<<< HEAD
-        font-size: 18px;
-        margin-bottom: 15px;
-        font-weight: 600;
-      }
-      span {
-        font-size: 14px;
-=======
         font-size: 16px;
         margin-bottom: 7px;
         font-weight: 600;
       }
       span {
         font-size: 12px;
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
 
         b {
           font-weight: 500;
@@ -77,8 +57,6 @@
     }
   }
 }
-<<<<<<< HEAD
-=======
 
 @media screen and (max-width: 700px) {
   .checkout-summery .product-item .product-img {
@@ -86,4 +64,3 @@
     margin-right: 20px;
   }
 }
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3

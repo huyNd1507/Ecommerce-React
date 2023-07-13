@@ -38,11 +38,7 @@ const Login = () => {
       .then((userCredential) => {
         const user = userCredential.user;
         setIsloading(false);
-<<<<<<< HEAD
-        toast.success("Đăng nhập thành công");
-=======
         toast.success("Logged in successfully");
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
         redicretUser();
       })
       .catch((error) => {
@@ -57,11 +53,7 @@ const Login = () => {
     signInWithPopup(auth, provider)
       .then((result) => {
         const user = result.user;
-<<<<<<< HEAD
-        toast.success("Đăng nhập thành công");
-=======
         toast.success("Logged in successfully");
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
         redicretUser();
       })
       .catch((error) => {
@@ -78,11 +70,7 @@ const Login = () => {
             <img src={loginImage} alt="Login" />
           </div>
           <div className="form">
-<<<<<<< HEAD
-            <h2>Đăng nhập</h2>
-=======
             <h2>Login</h2>
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
             <form onSubmit={loginUser}>
               <input
                 type="text"
@@ -99,17 +87,10 @@ const Login = () => {
                 onChange={(e) => setPassword(e.target.value)}
               />
               <button type="submit" className="--btn --btn-primary --btn-block">
-<<<<<<< HEAD
-                Đăng nhập
-              </button>
-              <div className="links">
-                <Link to="/reset">Quên mật khẩu ?</Link>
-=======
                 Login
               </button>
               <div className="links">
                 <Link to="/reset">Forgot password ?</Link>
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
               </div>
               <p>-- or --</p>
             </form>
@@ -117,19 +98,11 @@ const Login = () => {
               className="--btn --btn-danger --btn-block"
               onClick={signWithGoogle}
             >
-<<<<<<< HEAD
-              <BsGoogle className="button-icon" /> Đăng nhập với Google
-            </button>
-            <span className="register">
-              <p>Bạn đã có tài khoản chưa?</p>
-              <Link to="/register">Đăng kí</Link>
-=======
               <BsGoogle className="button-icon" /> Sign in with Google
             </button>
             <span className="register">
               <p>Do you already have an account??</p>
               <Link to="/register">Register</Link>
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
             </span>
           </div>
         </div>

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# React-Ecommerce
-=======
 # React Ecommerce
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
 
 Ecommerce with react
 

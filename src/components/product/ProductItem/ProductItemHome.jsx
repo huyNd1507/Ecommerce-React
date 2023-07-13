@@ -17,11 +17,7 @@ const ProductItemHome = ({ product }) => {
     dispatch(CALCULATE_TOTAL_QUANTITY());
   };
   return (
-<<<<<<< HEAD
-    <div className="col-3 col-md-6 col-sm-12">
-=======
     <div className="col-3 col-md-6 ">
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
       <div className="product-card">
         <Link to={`/product-details/${product.id}`}>
           <div className="product-card-img">
@@ -30,20 +26,6 @@ const ProductItemHome = ({ product }) => {
         </Link>
 
         <div className="product-card-info">
-<<<<<<< HEAD
-          <div className="product-btn">
-            <button
-              className="--btn --btn-black"
-              onClick={() => addToCart(product)}
-            >
-              Mua ngay
-            </button>
-            <button className="--btn --btn-black">
-              <FaCartPlus onClick={() => addToCart(product)} />
-            </button>
-          </div>
-=======
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
           <Link to={`/product-details/${product.id}`}>
             <div className="product-card-name">
               <h2>{product.name}</h2>
@@ -52,8 +34,6 @@ const ProductItemHome = ({ product }) => {
           <div className="product-card-price">
             <span className="curr-price">${product.price}</span>
           </div>
-<<<<<<< HEAD
-=======
           <div className="product-btn">
             <button
               className="--btn --btn-black"
@@ -62,7 +42,6 @@ const ProductItemHome = ({ product }) => {
               Thêm vào giỏ
             </button>
           </div>
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
         </div>
       </div>
     </div>

@@ -2,10 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import useFetchDocument from "../../customHooks/useFetchDocument";
 import spinnerImg from "../../assets/spinner.jpg";
-<<<<<<< HEAD
-import moment from "moment";
-=======
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
 import "./OrderDetails.scss";
 const OrderDetails = () => {
   const [order, setOrder] = useState(null);
@@ -16,11 +12,6 @@ const OrderDetails = () => {
     setOrder(document);
   }, [document]);
 
-<<<<<<< HEAD
-  // console.log("Orders: ", order);
-
-=======
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
   return (
     <section className="order-details">
       <div className="container ">
@@ -51,13 +42,6 @@ const OrderDetails = () => {
               <b>Phone: </b> {order.shippingAddress.phone}
             </p>
             <p>
-<<<<<<< HEAD
-              <b>Date: </b>{" "}
-              {moment(order.orderDate).format("MMMM Do YYYY, h:mm:ss a")}
-            </p>
-            <p>
-=======
->>>>>>> 1cfc79a1489f45257e8f8bf8e8a4f9f42e8497e3
               <b>Address: </b>
               {`${order.shippingAddress.city}, ${order.shippingAddress.country}`}
             </p>
